@@ -24,12 +24,19 @@
     width: 90px;
     height: 50px;
     font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center  
 }
 .text {
     width: 55px;
     height: 14px;
+    display: flex;
 }
-.nav-text p {
+#line{
+    margin-left: 10px;
+}
+#line {
     color: #CCCCCC;
     font-size: 12px;
 }
