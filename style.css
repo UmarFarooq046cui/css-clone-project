@@ -10,7 +10,14 @@
     color: white;
     background-color: #0f1111;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.border {
+    border: 2px solid transparent
+}
+.border:hover {
+    border: 2px solid white
 }
 .nav-logo {
     width: 114px;
