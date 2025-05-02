@@ -10,7 +10,7 @@
     color: white;
     background-color: #0f1111;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .border {
