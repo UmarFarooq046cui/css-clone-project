@@ -14,10 +14,10 @@
     align-items: center;
 }
 .border {
-    border: 2px solid transparent
+    border: 1px solid transparent
 }
 .border:hover {
-    border: 2px solid white
+    border: 1px solid white
 }
 .nav-logo {
     width: 114px;
@@ -35,21 +35,26 @@
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: center  
 }
 .text {
     width: 55px;
     height: 14px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #line{
     margin-left: 10px;
     color: #CCCCCC;
     font-size: 12px;
 }
+.nav-loc{
+    margin-right: 2px;
+}
 .nav-search {
     display: flex;
-    background-color: pink;
     width: 620px;
     height: 40px;
     border-radius: 4px;
