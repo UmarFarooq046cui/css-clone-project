@@ -59,6 +59,10 @@
     height: 40px;
     border-radius: 4px;
 }
+.nav-search:hover  {
+    border: 2px solid orange;
+    border-radius: 7px
+}
 .all-dropdown {
     width: 50px;
     border-top-left-radius: 4px;
@@ -72,6 +76,9 @@
     width: 100%;
     border: none;
     font-size: 1rem;
+}
+.search-input:active  {
+    border: none
 }
 .search-icon {
     width: 50px;
@@ -89,7 +96,6 @@ span {
     margin-top: 5px;
 }
 .nav-second {
-    width: 120px;
     font-size: 14px;
     font-weight: 700;
 }
