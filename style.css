@@ -108,11 +108,23 @@ span {
     height: 40px;
     background-color: #222f3d;
     color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
 }
 .menu {
     width: 58px;
     height: 40px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
+    margin-left: 5px
+}
+.all {
+    margin-left: 2px;
+    font-weight: 700;
+}
+.panel-options {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
 }
