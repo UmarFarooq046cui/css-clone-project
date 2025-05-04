@@ -102,3 +102,17 @@ span {
     font-size: 14px;
     font-weight: 700;
 }
+/* panel */
+.panel {
+    width: 100%;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+}
+.menu {
+    width: 58px;
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
