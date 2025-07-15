@@ -195,3 +195,33 @@ span {
     font-family: arial;
     font-size: 14px;
 }
+.footer-panel2 {
+    height: 320px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+ul a {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   color: #dddddd;
+   font-size: 14px;
+   margin: 0px 0px 10px;
+    
+}
+ul p {
+    font-size: 16px;
+    font-weight: 900px;
+    margin: 6px 0px 14px;
+    color: white;
+    font-family: arial;
+
+}
