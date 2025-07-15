@@ -228,3 +228,11 @@ ul p {
 ul a:hover{
     text-decoration: #dddddd underline;
 } 
+.footer-panel3{
+    height: 90px;
+    background-color: #232f3e;
+    border-top: 0.1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
