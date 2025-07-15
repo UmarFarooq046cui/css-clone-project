@@ -138,13 +138,13 @@ span {
 }
 .hero-info {
     height: 40px;
-    width: 95%;
+    width: 80%;
     background-color: white;
     color: #0f1111;
     font-size: 14px;
     font-family: Arial;
     position: relative;
-    bottom: 25px;
+    bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,4 +152,30 @@ span {
 .hero-info a {
     text-decoration: none;
     color: #007185;
+}
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6
+}
+.box {
+    height: 420px;
+    width: 24%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 25px;
+}
+.box-image {
+    height: 320px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content {
+    margin-left: 1rem;
+    margin: 1rem;
+}
+.box-content a {
+   color: #007185;
+   text-decoration: none;
 }
