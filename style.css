@@ -225,3 +225,6 @@ ul p {
     font-family: arial;
 
 }
+ul a:hover{
+    text-decoration: #dddddd underline;
+} 
