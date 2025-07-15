@@ -128,3 +128,13 @@ span {
     justify-content: space-around;
     width: 40%;
 }
+.hero-section {
+    height: 500px;
+    background-image: url("hero_image.jpg");
+    background-size: contain;
+}
+.hero-image {
+    height: 500px;
+    background-image: url("hero_image.jpg");
+    background-size: contain;
+}
