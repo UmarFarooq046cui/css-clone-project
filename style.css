@@ -179,3 +179,19 @@ span {
    color: #007185;
    text-decoration: none;
 }
+.section2 {
+   margin-bottom: 25px
+}
+.footer-panel {
+    height: 49px;
+    background-color: #37485a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+}
