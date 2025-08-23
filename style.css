@@ -242,7 +242,6 @@ span {
     margin-top: 40px;
 }
 .footer-panel4 {
-    height: 350px;
     background-color: #131a22;
     margin-top: 30px;
     padding-top: 30px;
@@ -291,4 +290,30 @@ span {
 }   
 .footer-panel4-list-space {
     width: 3%;
+}
+.footer-panel5 {
+    background-color: #131a22;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer-panel5-list-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+}
+.footer-panel5-list-anchor {
+    text-decoration: none;
+    color: #dddddd;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.footer-panel5-list-anchor:hover {
+    text-decoration: #dddddd solid underline;
+}
+.footer-panel5-list-span {
+    color: #dddddd;
 }
