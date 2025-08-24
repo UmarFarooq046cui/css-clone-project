@@ -239,24 +239,31 @@ span {
     box-sizing: border-box;
     display: flex;
 }
-.language-setting-section {
+.footer-panel3-setting-section {
+    display: flex;
+    align-items: center;
+}
+.setting-container {
     border: 1px solid #999999;
     border-radius: 3px;
     display: flex;
     padding: 6px 18px 6px 8px;
     margin-right: 4px;
 }
-.set-language-link {
+.setting-link {
     text-decoration: none;
     color: #CCCCCC;
-    display: flex;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-.set-language {
     font-size: 13px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: flex;
+    position: relative;
+    right: 0px;
+    padding-left: 7.8px;
+    padding-right: 7.8px;
+}
+.set-link-content {
+    font-size: 13px;
+    padding-left: 7.8px;
+    padding-right: 7.8px;
 }
 .language-setter-button {
     background-color: none;
@@ -268,11 +275,16 @@ span {
     cursor: pointer;
     position: relative;
     left: 9px;
-    padding: 1px 5px;
+    padding: 1px 6px;
 }
 .set-language-icon {
     font-size: 8px;
     height: 4px;
+}
+.set-currency-symbol {
+    color: #ffffff;
+    font-size: 13px;
+    
 }
 .footer-panel3-div-spacer {
     border-top: 1px solid #3a4553;
